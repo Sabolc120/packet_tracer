@@ -47,11 +47,6 @@ A `.pkt` fájl megnyitásához és a konfigurációk módosításához szükség
 * **Tanári Wi-Fi (SSID: Tanari):** `tanari1900` ( Alapértelmezett IP kiosztás beállításokkal )
 * **Diák Wi-Fi (SSID: Diak):** `diak2500` ( Alapértelmezett IP kiosztás beállításokkal )
 
-## 📂 A Repository Tartalma
-
-* `Iskolai_Halozat_Projekt.pkt`: A Cisco Packet Tracer forrásfájl.
-* `Dokumentacio.pdf`: Részletes leírás a topológiáról és a konfigurációs lépésekről (Opcionális).
-
 ---
 Készítette: Veres Szabolcs
 

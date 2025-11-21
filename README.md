@@ -9,7 +9,7 @@ Ez a projekt egy kisiskolai hálózati környezet szimulációja, amelyet **Cisc
 A hálózat egy **hierarchikus modellt** követ (bár egyszerűsített formában), amely a következő fő komponensekből áll:
 
 * **Core/Distribution Réteg:** 1 db **Layer 3 Switch** (Cisco 3650), amely az Inter-VLAN routingot (alapértelmezett átjáró) és a VLAN-ok közötti forgalomirányítást végzi.
-* **Access Réteg:** 2 db **Layer 2 Switch** (Cisco 2960), amelyek a végpontok (PC-k, Laptopok) csatlakozását biztosítják.
+* **Access Réteg:** 2 db **Layer 2 Switch** (Cisco 2960), amelyek a végpontok (PC-k) csatlakozását biztosítják.
 * **Vezeték nélküli hálózat:** Dedikált Wi-Fi hozzáférés a Tanári és Diák hálózatok számára.
 * **Szerver Szolgáltatások:** Dedikált szerver a DHCP és egyéb hálózati szolgáltatások (HTTP, DNS) kezelésére.
 

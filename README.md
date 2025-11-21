@@ -31,8 +31,8 @@ A hálózat a következő IP-tartományokat és VLAN kiosztást használja:
 | VLAN ID | VLAN Név | Hálózati Cím | Gateway (SVI) | Megjegyzés |
 | :--- | :--- | :--- | :--- | :--- |
 | **1** | Management | `10.1.1.0/24` | `10.1.1.254` | Eszközmenedzsment |
-| **10** | Tanári | `10.1.10.0/24` | `10.1.10.254` | Tanári PC-k és Wi-Fi |
-| **20** | Diák | `10.1.20.0/24` | `10.1.20.254` | Diák PC-k és Wi-Fi |
+| **10** | Tanári | `10.1.10.0/24` | `10.1.10.254` | Tanári PC-k|
+| **20** | Diák | `10.1.20.0/24` | `10.1.20.254` | Diák PC-k |
 | **100** | Szerver | `10.1.100.0/24` | `10.1.100.254` | Központi szolgáltatások |
 
 **Kiemelt eszközök:**
@@ -44,8 +44,8 @@ A `.pkt` fájl megnyitásához és a konfigurációk módosításához szükség
 
 * **Enable Secret (Privileged Exec):** `example`
 * **VTP Password:** `example`
-* **Tanári Wi-Fi (SSID: Tanari):** `tanari1900`
-* **Diák Wi-Fi (SSID: Diak):** `diak2500`
+* **Tanári Wi-Fi (SSID: Tanari):** `tanari1900` ( Alapértelmezett IP kiosztás beállításokkal )
+* **Diák Wi-Fi (SSID: Diak):** `diak2500` ( Alapértelmezett IP kiosztás beállításokkal )
 
 ## 📂 A Repository Tartalma
 
@@ -53,6 +53,6 @@ A `.pkt` fájl megnyitásához és a konfigurációk módosításához szükség
 * `Dokumentacio.pdf`: Részletes leírás a topológiáról és a konfigurációs lépésekről (Opcionális).
 
 ---
-*Készítette: [A Te Neved] - Hálózati Rendszergazda Portfólió*
+Készítette: Veres Szabolcs
 
 Readme: AI Alapú, ellenőriztetve. 
